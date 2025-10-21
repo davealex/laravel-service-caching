@@ -1,6 +1,6 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/davealex/laravel-caching-service.svg?style=flat-square)](https://packagist.org/packages/davealex/laravel-caching-service)
-[![Total Downloads](https://img.shields.io/packagist/dt/davealex/laravel-caching-service.svg?style=flat-square)](https://packagist.org/packages/davealex/laravel-caching-service)
-![GitHub Actions](https://github.com/davealex/laravel-caching-service/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/davealex/laravel-service-caching.svg?style=flat-square)](https://packagist.org/packages/davealex/laravel-service-caching)
+[![Total Downloads](https://img.shields.io/packagist/dt/davealex/laravel-service-caching.svg?style=flat-square)](https://packagist.org/packages/davealex/laravel-service-caching)
+![GitHub Actions](https://github.com/davealex/laravel-service-caching/actions/workflows/main.yml/badge.svg)
 
 # **Laravel Service Caching**
 
