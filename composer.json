@@ -1,0 +1,59 @@
+{
+    "name": "davealex/laravel-service-caching",
+    "description": "A simple strategy for managing data services caching in Laravel applications",
+    "keywords": [
+        "davealex",
+        "laravel",
+        "service",
+        "caching",
+        "laravel-service-caching"
+    ],
+    "homepage": "https://github.com/davealex/laravel-service-caching",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "David Olaleye",
+            "email": "daveabiola@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "orchestra/testbench": "^10.1",
+        "phpunit/phpunit": "^11.5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davealex\\LaravelServiceCaching\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Davealex\\LaravelServiceCaching\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davealex\\LaravelServiceCaching\\LaravelServiceCachingServiceProvider"
+            ],
+            "aliases": {
+                "LaravelServiceCaching": "Davealex\\LaravelServiceCaching\\Facades\\LaravelServiceCaching"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
